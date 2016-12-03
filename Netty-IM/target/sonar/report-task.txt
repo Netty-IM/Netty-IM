@@ -1,0 +1,5 @@
+projectKey=com.fanqir:com.fanqir.netty-im
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/com.fanqir:com.fanqir.netty-im
+ceTaskId=AViy_iHI84EEI4K5VbUX
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AViy_iHI84EEI4K5VbUX
