@@ -5,9 +5,9 @@
 git remote get-url netty-im
 
 if [ $? -eq 0 ]; then 
-  echo " spat remote branch already exist"
+  echo " netty-im remote branch already exist"
 else 
-  echo git remote add netty-im git@gitlab.com/Netty-IM/Netty-IM.git
+  echo git remote add netty-im git@github.com/Netty-IM/Netty-IM.git
 fi
 
 git fetch netty-im master
@@ -24,5 +24,4 @@ if [ $? -eq 0 ]; then
   else
 	  echo "Not push, if you would like to do it , run git push"
   fi
-
 fi
