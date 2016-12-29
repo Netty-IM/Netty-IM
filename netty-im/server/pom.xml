@@ -3,23 +3,41 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <groupId>com.Netty-IM</groupId>
-        <artifactId>com.Netty-IM.netty-im</artifactId>
+        <groupId>com.nettyim</groupId>
+        <artifactId>com.nettyim</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../Netty-IM/pom.xml</relativePath>
+        <relativePath>../../netty-im/pom.xml</relativePath>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.Netty-IM</groupId>
-    <artifactId>com.Netty-IM.netty-im.server</artifactId>
+    <groupId>com.nettyim</groupId>
+    <artifactId>com.nettyim.server</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
-            <groupId>org.jboss.netty</groupId>
-            <artifactId>netty</artifactId>
-            <version>3.1.5.GA</version>
+            <groupId>me.imyun</groupId>
+            <artifactId>im</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.1.Final</version>
         </dependency>
     </dependencies>
 
