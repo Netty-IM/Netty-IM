@@ -37,7 +37,7 @@ You can execute *git-merge.sh* instead of three commands.
 ## Commit your changes to *Netty-IM*
 
 1. Visit *https://gitlab.com/your-repository/Netty-IM*
-2. Click *+* button and then click *New Merge Request* menu item
+2. Click *+* button and then click *New Merge me.imyun.request.Request* menu item
 3. Select your *Master* as the source branch
 4. Select *Netty-IM/Netty-IM* as the target branch
 5. Click *Compare branches and continue* button
