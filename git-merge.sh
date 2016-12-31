@@ -7,7 +7,7 @@ git remote get-url netty-im
 if [ $? -eq 0 ]; then 
   echo " netty-im remote branch already exist"
 else 
-  echo git remote add netty-im git@github.com/Netty-IM/Netty-IM.git
+  git remote add netty-im git@github.com:Netty-IM/Netty-IM.git
 fi
 
 git fetch netty-im master

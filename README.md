@@ -26,3 +26,8 @@ Netty-IM is a IM system using netty as a communicating framework.
 - [ ] login and authorized system ( simple and common used function considered )
 - [ ] simple c-s communicate complement 
 
+Constructor:
+GEXIAOCHUAN
+SUNAO
+WEIPENGTAO
+
