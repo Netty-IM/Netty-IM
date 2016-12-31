@@ -12,16 +12,5 @@ fi
 
 git fetch netty-im master
 git checkout master 
-git merge netty-im/master
+git rebase netty-im/master
 
-if [ $? -eq 0 ]; then
-  git log 
-  read -p "Wether to run git push [y/n]:" Option
-  echo $Option
-
-  if [ $Option = 'y' ]; then
-    git push
-  else
-	  echo "Not push, if you would like to do it , run git push"
-  fi
-fi
